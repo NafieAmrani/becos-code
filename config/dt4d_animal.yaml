@@ -1,0 +1,17 @@
+# general config
+name: dt4d_animal
+scale: 1
+folder_name: dt4d_animals
+file_type: obj
+category: four-legged
+
+# times a shape is used in the dataset
+shape_usage_counts: 4
+
+# gt corr config
+index_start: 0
+gt_corr_type: p2p
+corr_given: true
+same_triangulation: true
+
+rot: [92, 0, 0]

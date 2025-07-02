@@ -1,0 +1,9 @@
+PyYAML==6.0.2
+numpy==1.24.4
+open3d==0.18.0
+potpourri3d==1.1.0
+trimesh==4.4.0
+robust-laplacian==0.2.7
+networkx==3.1
+libigl==2.5.1
+fast_simplification==0.1.7

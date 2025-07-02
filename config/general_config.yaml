@@ -1,0 +1,37 @@
+SEED: 42 # Random seed
+n_jobs: -1 # Nr. processes used in parallel. Default: -1, uses all processes.
+
+data_dir: data # Folder to data directory
+template_file: templates_all.csv # template file for partial-to-full matching
+
+datasets:
+  faust: true # whether faust dataset is included
+  scape: true # whether scape dataset is included
+  kids: true # whether kids dataset is included
+  dt4d_human: true # whether dt4d human dataset is included
+  tosca: true # whether tosca dataset is included
+  shrec20: true # whether shrec20 dataset is included
+  smal: true # whether smal dataset is included
+  dt4d_animal: true # whether dt4d animal is included
+
+combinations: all # human/four-legged/human_centaur/four-legged_centaur/all
+setting: partial_partial # full_full/partial_full/partial_partial
+
+# dataset options
+remesh: true #if meshes should be remeshed
+cam_pos_regime: high # high/medium/low
+
+original_settings: true # if true, benchmark setting with exact pairs, else default corres computation
+
+# alignment conf
+one_axis_rotation: true # if true: rotation around one axis, else random rotation
+
+# sampled camera poses
+n_cam_pos: 10 # max number of camera poses to find shapes with overlapping region between [min_overlap, max_overlap]
+min_overlap: 0.1 # minimum of overlapping region
+max_overlap: 0.9 # maximum of overlapping region
+
+# Left/Right annotations
+propagate_annotations: false
+annotated_template_file: templates_chirality_all.csv
+annotated_templates_folder: precomputed_chirality_templates

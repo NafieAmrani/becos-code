@@ -1,0 +1,9 @@
+dataset,template,split,partial_full_template,partial_full_dataset
+tosca_victoria,victoria0,-,michael0,tosca
+tosca_michael,michael0,-,michael0,tosca
+tosca_david,david0,-,michael0,tosca
+tosca_horse,horse0,-,horse0,tosca
+tosca_dog,dog0,-,dog0,tosca
+tosca_cat,cat0,-,cat0,tosca
+tosca_wolf,wolf0,-,wolf0,tosca
+tosca_centaur,centaur0,-,centaur0,tosca

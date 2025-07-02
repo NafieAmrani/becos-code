@@ -1,0 +1,10 @@
+dt4d_bearVGG,dt4d_grizzRSS
+dt4d_deer2MB,dt4d_deerA4K
+dt4d_deerK5L,dt4d_deerLO1
+dt4d_milkcow10L,dt4d_bullMJ6
+dt4d_cattleAFK,dt4d_bullMJ6
+dt4d_foxXAT,dt4d_foxZED
+dt4d_huskydog3T,dt4d_canieLTT
+dt4d_procySTEM,dt4d_raccoonVGG
+dt4d_catBG,dt4d_leopardSLM
+dt4d_deerVMW,dt4d_deerK5L

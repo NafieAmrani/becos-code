@@ -1,0 +1,24 @@
+# general config
+name: scape
+scale: 1
+folder_name: SCAPE/Meshes/
+file_type: "off"
+category: human
+
+# times a shape is used in the dataset
+shape_usage_counts: 40
+
+# gt corr config
+index_start: 0
+gt_corr_type: p2p
+same_triangulation: true
+nr_verts: 12500
+corr_given: true
+
+#transform for viz
+rot: [180, 0, -90]
+
+splits:
+  train: 56
+  val: 7
+  test: 8

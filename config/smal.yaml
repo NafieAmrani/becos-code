@@ -1,0 +1,75 @@
+# general config
+name: smal
+scale: 1.25
+folder_name: smal
+file_type: ply
+category: four-legged
+
+# times a shape is used in the dataset
+shape_usage_counts: 60
+
+# gt corr config
+index_start: 0
+gt_corr_type: p2p
+same_triangulation: true
+corr_given: true
+
+rot:
+  {
+"cows_cow_alph": [0, -90, 180],
+"cows_cow2": [0, 90, 180],
+"cows_cow_alph4": [0, -90, 180],
+"cows_cow_alph5": [0, 90, 180],
+"cows_Davis_cow_00000": [0, 90, 180],
+"cows_muybridge_076_04": [0, 90, 180],
+"cows_muybridge_087_04": [0, 90, 180],
+"cows_timthumb": [0, 90, 180],
+"hippos_Hippo_for_Nat": [0, -90, 180],
+"hippos_hippo5": [0, 90, 180],
+"hippos_hippo_alpha": [0, 90, 180],
+"hippos_hippo_alpha_mouthopen2": [0, 90, 180],
+"hippos_hippo_walking": [0, 90, 180],
+"hippos_hippos": [0, 90, 180],
+"big_cats_00211799_ferrari": [0, -90, 180], 
+"big_cats_450-122410176-lions-natural-habitat": [0, 90, 180], 
+"big_cats_MaleLion800": [0, 90, 180], 
+"big_cats_cougar": [0, -90, 180], 
+"big_cats_lion3": [0, 90, 90], 
+"big_cats_lion6": [0, 90, 180], 
+"big_cats_lion_yawn": [0, 90, 180], 
+"big_cats_muybridge_107_110_03": [0, 90, 180],
+"big_cats_muybridge_132_133_07": [0, 90, 180],
+"dogs_Brown-And-White-Akita-Dog_alph": [0,-90,180],
+"dogs_NORTHERN-INUIT-DOG-3": [0,-90,180],
+"dogs_dog2": [0,90,180],
+"dogs_dog_alph": [0,90,180],
+"dogs_fox-05": [0,90,180],
+"dogs_fox-06": [0,-90,180],
+"dogs_fox": [0,180,180],
+"dogs_fox_alph": [0,-90,180],
+"dogs_muybridge_097_01": [0,90,180],
+"dogs_muybridge_097_02": [0,90,180],
+"dogs_muybridge_101_03": [0,90,180],
+"dogs_muybridge_102_03": [0,-90,180],
+"dogs_muybridge_104_04": [0,-90,180],
+"dogs_stalking_wolf_cub_by_nieme": [0,-90,180],
+"dogs_wolf_alph2": [0,-90,180],
+"dogs_wolf_alph3": [0,-90,180],
+"horses_00028740_ferrari": [0,90,180],
+"horses_00047093_ferrari": [0,-90,180],
+"horses_00049424_ferrari": [0,90,180],
+"horses_00057894_ferrari": [0,90,180],
+"horses_grazing": [0,90,180],
+"horses_muybridge_014_01": [0,90,180],
+"horses_muybridge_030_02": [0,90,180],
+"horses_muybridge_071_04": [0,90,180],
+"horses_muybridge_074_01": [0,-90,180],
+"horses_muybridge_075_04": [0,-90,180],
+}
+
+splits:
+  train: ["big_cats", "dogs", "horses"]
+  val: ["hippos"]
+  test: ["cows"]
+
+

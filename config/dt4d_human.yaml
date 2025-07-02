@@ -1,0 +1,17 @@
+# general config
+name: dt4d_human
+scale: 1
+folder_name: dt4d_humanoids
+file_type: obj
+category: human
+
+# times a shape is used in the dataset
+shape_usage_counts: 10
+
+# gt corr config
+index_start: 0
+gt_corr_type: p2p
+corr_given: true
+same_triangulation: true
+
+rot: [90, 0, 0]

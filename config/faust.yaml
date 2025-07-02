@@ -1,0 +1,23 @@
+# general config
+name: faust
+scale: 1
+folder_name: MPI-FAUST/training/registrations/
+file_type: ply
+category: human
+
+# times a shape is used in the dataset
+shape_usage_counts: 40
+
+# gt corr config
+index_start: 0
+gt_corr_type: p2p
+same_triangulation: true
+nr_verts: 6890
+corr_given: true
+
+rot: [0, 0, 0]
+
+splits:
+  train: 80
+  val: 10
+  test: 10

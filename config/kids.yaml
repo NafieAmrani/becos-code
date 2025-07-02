@@ -1,0 +1,23 @@
+# general config
+name: kids
+scale: 0.01
+folder_name: KIDS/off
+file_type: "off"
+category: human
+
+# times a shape is used in the dataset
+shape_usage_counts: 50
+
+# gt corr config
+index_start: 1
+gt_corr_type: p2p
+same_triangulation: true
+nr_verts: 6890
+corr_given: true
+
+rot: [90, 0, 0]
+
+splits:
+  train: 24
+  val: 4
+  test: 4

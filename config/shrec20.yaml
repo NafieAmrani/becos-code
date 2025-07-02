@@ -1,0 +1,20 @@
+# general config
+name: shrec20
+scale: 2.9
+folder_name: Shrec20/SHREC20b_hires/models
+file_type: obj
+category: four-legged
+
+# times a shape is used in the dataset
+shape_usage_counts: 80
+
+# gt corr config
+corr_given: false
+
+rot: [0, 0, 0]
+
+splits:
+  train: ["bison", "camel_a", "cow", "dog", "elephant_a", "pig", "elephant_b"]
+  val: ["giraffe_b", "leopard"]
+  test: ["giraffe_a", "rhino"]
+  excluded_shapes: ["bear", "camel_b", "hippo"]

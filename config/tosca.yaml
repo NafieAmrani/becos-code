@@ -1,0 +1,29 @@
+# general config
+name: tosca
+scale: 0.0095
+folder_name: tosca-off
+file_type: "off"
+regex_category: ["(michael|david|victoria)", "(dog|cat|horse|wolf)", "centaur"]
+category: [human, four-legged, centaur]
+
+# times a shape is used in the dataset
+shape_usage_counts: 70
+
+# gt corr config
+index_start: 0
+gt_corr_type: p2p
+# same triangulation in categories
+same_triangulation: true
+corr_given: true
+
+rot: [90, 0, 0]
+
+splits:
+  human:
+    train: ["michael"]
+    test: ["victoria"]
+    val: ["david"]
+  four-legged:
+    train: ["horse", "wolf"]
+    test: ["cat"]
+    val: ["dog"]

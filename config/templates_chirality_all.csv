@@ -1,0 +1,12 @@
+dataset,annotated_template
+tosca_horse,horse0
+tosca_centaur,centaur0
+faust,tr_reg_000
+dt4d_animal_elephantLN0,elephantLN0/act2053
+dt4d_animal_rhinoDJ7S,rhinoDJ7S/action1005
+dt4d_animal_bear3EP,bear3EP/FlyRM001
+dt4d_animal_deerK5L,deerK5L/Jump013
+dt4d_animal_moose1DOG,moose1DOG/Jump011
+dt4d_animal_moose45D,moose45D/Jump011
+dt4d_animal_moose6OK9,moose6OK9/JumpFlyIP001
+dt4d_animal_deerFEL,deerFEL/Jump011
