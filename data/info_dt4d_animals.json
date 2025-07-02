@@ -1,0 +1,3752 @@
+{
+    "procySTEM": {
+        "Turn16": [
+            28,
+            1
+        ],
+        "Climb19": [
+            11
+        ],
+        "Climb1": [
+            22
+        ],
+        "Climb17": [
+            16,
+            30,
+            1
+        ],
+        "Swim7": [
+            12,
+            1
+        ],
+        "SleepLieSeat0": [
+            48,
+            95
+        ],
+        "Dodge8": [
+            17
+        ],
+        "Dodge12": [
+            17
+        ],
+        "Swim14": [
+            1,
+            23
+        ],
+        "SleepLieSeat4": [
+            1
+        ],
+        "GetHitRight2": [
+            36
+        ],
+        "Run4": [
+            1,
+            11,
+            6
+        ],
+        "Swim0": [
+            1,
+            12,
+            22
+        ],
+        "Swim12": [
+            23,
+            1,
+            12
+        ],
+        "GetHitLeft1": [
+            36
+        ],
+        "Attacks1": [
+            30
+        ],
+        "GetHitRight1": [
+            39
+        ],
+        "Climb5": [
+            21
+        ],
+        "Climb0": [
+            17
+        ],
+        "Jump1": [
+            32,
+            16
+        ],
+        "Fall1": [
+            15
+        ],
+        "Sneak2": [
+            34,
+            17
+        ],
+        "Fall0": [
+            16,
+            9
+        ],
+        "Attacks4": [
+            11
+        ],
+        "GetHitLeft2": [
+            18
+        ],
+        "WalkBack4": [
+            1,
+            11
+        ],
+        "Actions4": [
+            56
+        ],
+        "Climb13": [
+            23
+        ],
+        "Sneak4": [
+            17
+        ],
+        "Walk14": [
+            23
+        ],
+        "Walk20": [
+            1
+        ],
+        "Turn6": [
+            51
+        ],
+        "Climb9": [
+            21
+        ],
+        "Death0": [
+            66
+        ]
+    },
+    "moose45D": {
+        "death2": [
+            27
+        ],
+        "SwimRotLeftRM": [
+            9,
+            18
+        ],
+        "RunrightRM": [
+            12
+        ],
+        "JumpFlyRM": [
+            10,
+            6
+        ],
+        "AttackTrotRM": [
+            7
+        ],
+        "JumpTrotRM": [
+            16,
+            31
+        ],
+        "Attack2": [
+            12
+        ],
+        "JumpRunRM": [
+            13,
+            26
+        ],
+        "JumpLandingRM": [
+            1
+        ],
+        "WalkbackRRM": [
+            23,
+            12,
+            1
+        ],
+        "RotateRightRM": [
+            1
+        ],
+        "Jump": [
+            22,
+            11
+        ],
+        "SwimleftRM": [
+            9
+        ],
+        "SwimRotRightRM": [
+            9,
+            18
+        ],
+        "JumpFlyIP": [
+            1
+        ],
+        "RotateR180RM": [
+            27,
+            14
+        ],
+        "death1": [
+            22
+        ],
+        "SwimbackleftRM": [
+            1,
+            9
+        ],
+        "SwimforwardRM": [
+            1,
+            9,
+            18
+        ],
+        "RotateleftRM": [
+            14
+        ],
+        "SwimbackrightRM": [
+            1
+        ],
+        "RotateL180RM": [
+            27
+        ],
+        "Jumpdown": [
+            25,
+            13
+        ],
+        "hiderotRight": [
+            16,
+            1
+        ],
+        "TrotforwardRM": [
+            14,
+            7
+        ],
+        "WalkbackLRM": [
+            1,
+            12
+        ],
+        "eat1": [
+            67
+        ],
+        "SwimbackRM": [
+            18,
+            9
+        ],
+        "SwimrightRM": [
+            9,
+            18
+        ],
+        "RunleftRM": [
+            1,
+            12
+        ],
+        "hiderotLeft": [
+            9
+        ]
+    },
+    "doggieMN5": {
+        "walkbackrightRM": [
+            9
+        ],
+        "JumpflyRM": [
+            7,
+            4,
+            1
+        ],
+        "walkbackleftRM": [
+            9
+        ],
+        "Rotate90R": [
+            20
+        ],
+        "Attack2": [
+            16
+        ],
+        "Rotate90L": [
+            20
+        ],
+        "Howl": [
+            70
+        ],
+        "JumprunRM": [
+            16,
+            32
+        ],
+        "runforwardRM": [
+            11
+        ],
+        "SwimBackrightRM": [
+            20,
+            1
+        ],
+        "hitfront": [
+            7
+        ],
+        "JumplandingRM": [
+            4
+        ],
+        "SwimforwardRM": [
+            20,
+            11
+        ],
+        "SwimBackleftRM": [
+            1,
+            11
+        ],
+        "SwimidleRM": [
+            1
+        ],
+        "AttacktrotRM": [
+            27,
+            14
+        ],
+        "Rotate180R": [
+            34
+        ],
+        "JumptrotRM": [
+            16,
+            30
+        ],
+        "drink": [
+            67
+        ],
+        "Sleep": [
+            1
+        ],
+        "Crouchback": [
+            1
+        ],
+        "Crouchforward": [
+            22,
+            11
+        ],
+        "HiderotR": [
+            14
+        ],
+        "SwimbackRM": [
+            1
+        ],
+        "Crouchbackleft": [
+            22,
+            1
+        ],
+        "death2": [
+            10,
+            19
+        ],
+        "runrightRM": [
+            11
+        ],
+        "JumpdownRM": [
+            18
+        ],
+        "runleftRM": [
+            11
+        ],
+        "Crouchbackright": [
+            1
+        ],
+        "death1": [
+            19
+        ],
+        "SwimRotleftRM": [
+            11
+        ],
+        "Jump": [
+            24,
+            12
+        ],
+        "JumpupRM": [
+            10
+        ],
+        "runstopRM": [
+            10
+        ],
+        "AttackrunRM": [
+            30
+        ],
+        "Rotate180L": [
+            34
+        ],
+        "SwimRotrightRM": [
+            20
+        ]
+    },
+    "lionessHTR42": {
+        "action2": [
+            53,
+            92,
+            17,
+            43,
+            89,
+            14,
+            73,
+            96,
+            8
+        ],
+        "action1": [
+            83,
+            70,
+            17,
+            8,
+            47,
+            27,
+            86,
+            89,
+            24,
+            21,
+            79,
+            73,
+            40,
+            14,
+            11,
+            37
+        ],
+        "action4": [
+            1,
+            10,
+            30,
+            3,
+            24,
+            35,
+            19,
+            46
+        ],
+        "action0": [
+            96,
+            83,
+            89,
+            73
+        ],
+        "action3": [
+            64,
+            3,
+            60,
+            44,
+            67,
+            12,
+            17,
+            6,
+            15,
+            1,
+            10,
+            62,
+            21
+        ]
+    },
+    "bullMJ6": {
+        "SwimTurnL": [
+            1,
+            12,
+            23
+        ],
+        "SwimTurnR": [
+            23,
+            9,
+            1
+        ],
+        "WalkR": [
+            14,
+            24,
+            1
+        ],
+        "Falllanding": [
+            1
+        ],
+        "SwimB": [
+            4,
+            12,
+            20
+        ],
+        "RunL": [
+            11,
+            9,
+            14,
+            3
+        ],
+        "RunF": [
+            4,
+            14,
+            11
+        ],
+        "SwimFL": [
+            7,
+            18
+        ],
+        "Turn180R": [
+            23,
+            14,
+            27,
+            10,
+            36,
+            18
+        ],
+        "TrotF": [
+            9,
+            16,
+            12
+        ],
+        "TrotL": [
+            3,
+            9,
+            18
+        ],
+        "Death2": [
+            19,
+            15,
+            22,
+            29
+        ],
+        "Turn180L": [
+            31,
+            23,
+            5,
+            18,
+            10,
+            14,
+            27
+        ],
+        "SwimBR": [
+            1,
+            12
+        ],
+        "WalkF": [
+            7
+        ],
+        "Hitfront": [
+            7,
+            1
+        ]
+    },
+    "sheepYZR10": {
+        "idle11": [
+            24,
+            40,
+            9,
+            30,
+            18,
+            38,
+            32,
+            47,
+            36,
+            34,
+            5,
+            53
+        ],
+        "idle12": [
+            45,
+            32,
+            22,
+            15,
+            20,
+            38,
+            28,
+            30,
+            24,
+            26,
+            5,
+            11,
+            18
+        ],
+        "idle13": [
+            1,
+            22,
+            26,
+            14,
+            9,
+            37
+        ],
+        "idle10": [
+            38,
+            13,
+            42,
+            7,
+            47,
+            20
+        ],
+        "getHit1": [
+            16,
+            8,
+            10,
+            13,
+            5,
+            2,
+            4,
+            6,
+            3,
+            15,
+            17,
+            1,
+            18
+        ]
+    },
+    "catBG": {
+        "run": [
+            7,
+            24,
+            49,
+            36,
+            25,
+            31,
+            12,
+            30,
+            47,
+            34,
+            50,
+            48,
+            23,
+            43,
+            35,
+            6,
+            2,
+            16,
+            27,
+            5,
+            8,
+            42,
+            38,
+            46,
+            17,
+            20,
+            11,
+            14,
+            10,
+            41,
+            45,
+            44,
+            51,
+            33,
+            26,
+            21,
+            18,
+            39,
+            19,
+            32,
+            1,
+            0,
+            28,
+            9,
+            40,
+            29,
+            4,
+            13,
+            37,
+            3
+        ]
+    },
+    "bearVGG": {
+        "Turn1": [
+            8,
+            31
+        ],
+        "Death0": [
+            79
+        ],
+        "Turn3": [
+            15
+        ],
+        "Swim4": [
+            27,
+            14,
+            7
+        ],
+        "Sleep3": [
+            40
+        ],
+        "Fall0": [
+            27,
+            20,
+            14
+        ],
+        "Swim15": [
+            1,
+            27
+        ],
+        "Attack2": [
+            12
+        ],
+        "Sleep4": [
+            79
+        ],
+        "Run2": [
+            6,
+            20,
+            11,
+            1,
+            15
+        ],
+        "Run4": [
+            15,
+            19,
+            10,
+            6
+        ],
+        "Swim8": [
+            21,
+            8
+        ],
+        "WalkBack2": [
+            21,
+            11
+        ],
+        "Damaged5": [
+            38,
+            51
+        ],
+        "Swim11": [
+            14,
+            21,
+            1
+        ],
+        "Turn0": [
+            29,
+            57,
+            15
+        ],
+        "Jump1": [
+            40,
+            21,
+            11,
+            30
+        ],
+        "Fall2": [
+            9
+        ],
+        "DeathOpp1": [
+            76,
+            57
+        ],
+        "Idle8": [
+            79,
+            1
+        ],
+        "Sleep1": [
+            40,
+            60
+        ],
+        "Actions0": [
+            25
+        ],
+        "Sleep6": [
+            60
+        ],
+        "Swim6": [
+            1
+        ]
+    },
+    "moose1DOG": {
+        "RunrightRM": [
+            12
+        ],
+        "JumpFlyRM": [
+            10,
+            6
+        ],
+        "WalkbackLRM": [
+            23,
+            1,
+            12
+        ],
+        "JumpTrotRM": [
+            16,
+            31
+        ],
+        "SwimRotLeftRM": [
+            18
+        ],
+        "SwimbackrightRM": [
+            9,
+            1
+        ],
+        "Attack2": [
+            12
+        ],
+        "JumpRunRM": [
+            13,
+            26
+        ],
+        "JumpLandingRM": [
+            1
+        ],
+        "death2": [
+            13,
+            25
+        ],
+        "WalkbackRRM": [
+            23,
+            12,
+            1
+        ],
+        "RotateRightRM": [
+            1
+        ],
+        "JumpFlyIP": [
+            1
+        ],
+        "RotateR180RM": [
+            27,
+            14
+        ],
+        "death1": [
+            22
+        ],
+        "Jump": [
+            11
+        ],
+        "SwimbackleftRM": [
+            1,
+            18,
+            9
+        ],
+        "Attack3": [
+            20
+        ],
+        "SwimbackRM": [
+            1,
+            18
+        ],
+        "RotateL180RM": [
+            27
+        ],
+        "SwimforwardRM": [
+            9,
+            18
+        ],
+        "Jumpdown": [
+            25,
+            13
+        ],
+        "hiderotRight": [
+            16,
+            1
+        ],
+        "TrotforwardRM": [
+            14,
+            7
+        ],
+        "eat1": [
+            67
+        ],
+        "SwimrightRM": [
+            9,
+            1
+        ],
+        "Liesleep": [
+            67
+        ],
+        "RotateL90RM": [
+            20
+        ],
+        "hiderotLeft": [
+            9
+        ],
+        "hitback": [
+            7
+        ],
+        "RunleftRM": [
+            12
+        ],
+        "SwimRotRightRM": [
+            18
+        ]
+    },
+    "zebraBM": {
+        "eat": [
+            5,
+            27,
+            57,
+            3,
+            1,
+            16,
+            37,
+            20,
+            9,
+            6,
+            26,
+            36,
+            4,
+            8,
+            25,
+            38,
+            35,
+            14,
+            19,
+            33,
+            32,
+            34,
+            48,
+            2,
+            21,
+            49,
+            11,
+            10,
+            59,
+            7,
+            52,
+            50,
+            17,
+            22,
+            58,
+            47,
+            28,
+            51,
+            0,
+            43,
+            53,
+            41,
+            55,
+            56,
+            39,
+            31,
+            24,
+            54,
+            18,
+            23
+        ]
+    },
+    "rhinoDJ7S": {
+        "action1": [
+            63,
+            34,
+            41,
+            52,
+            56,
+            26,
+            30,
+            59,
+            48,
+            66,
+            45,
+            23,
+            16,
+            5,
+            37,
+            74
+        ],
+        "action7": [
+            68,
+            46,
+            81,
+            14
+        ],
+        "action5": [
+            49,
+            47,
+            28,
+            20,
+            25,
+            13,
+            37,
+            44,
+            32,
+            1,
+            8,
+            23,
+            30,
+            42,
+            18,
+            3,
+            11,
+            52
+        ],
+        "action4": [
+            1,
+            24,
+            7,
+            21,
+            18,
+            9
+        ],
+        "action2": [
+            1
+        ],
+        "action3": [
+            6,
+            23,
+            26,
+            19
+        ],
+        "action6": [
+            25
+        ]
+    },
+    "grizzRSS": {
+        "Actions4": [
+            1,
+            22,
+            65
+        ],
+        "Death1": [
+            39,
+            76,
+            57
+        ],
+        "Attack3": [
+            35,
+            24
+        ],
+        "Fall3": [
+            21,
+            1
+        ],
+        "Swim17": [
+            1,
+            13,
+            25
+        ],
+        "Swim2": [
+            1,
+            14
+        ],
+        "Swim9": [
+            1,
+            21
+        ],
+        "Idle4": [
+            40
+        ],
+        "Attack5": [
+            30
+        ],
+        "Jump0": [
+            43,
+            33,
+            22
+        ],
+        "Swim13": [
+            14,
+            1,
+            27
+        ],
+        "Turn2": [
+            58,
+            15,
+            29
+        ],
+        "Swim0": [
+            14,
+            27
+        ],
+        "Trot0": [
+            7,
+            27
+        ],
+        "Trot2": [
+            27
+        ],
+        "Walk2": [
+            11,
+            40
+        ],
+        "Run0": [
+            20,
+            15
+        ],
+        "Trot4": [
+            26,
+            20
+        ],
+        "WalkBack0": [
+            30
+        ],
+        "Sleep2": [
+            60
+        ],
+        "Attack4": [
+            26,
+            17
+        ],
+        "Damaged0": [
+            15
+        ],
+        "Damaged4": [
+            57,
+            1
+        ],
+        "DeathOpp0": [
+            79
+        ],
+        "Damaged1": [
+            52
+        ],
+        "Sleep5": [
+            21
+        ],
+        "Fall1": [
+            9
+        ]
+    },
+    "goatS4J6Y": {
+        "angry11": [
+            5,
+            36,
+            45,
+            0,
+            57,
+            30,
+            18,
+            19,
+            16,
+            42,
+            28,
+            40,
+            55,
+            3,
+            32,
+            51,
+            24,
+            14,
+            7,
+            26
+        ],
+        "death1": [
+            10,
+            66,
+            52,
+            64,
+            53,
+            25,
+            7,
+            45,
+            62,
+            11,
+            37,
+            22,
+            57,
+            48,
+            17,
+            13,
+            69,
+            5,
+            2,
+            34,
+            46,
+            55,
+            51,
+            58,
+            1,
+            43,
+            60,
+            50,
+            40,
+            29
+        ]
+    },
+    "deer2MB": {
+        "hiderotLeft": [
+            6
+        ],
+        "RotateRight180RM": [
+            24,
+            9,
+            17
+        ],
+        "SwimforwardRM": [
+            21,
+            6
+        ],
+        "death2": [
+            32,
+            24
+        ],
+        "SwimbackRM": [
+            16,
+            6
+        ],
+        "Rotateleft180RM": [
+            24,
+            32
+        ],
+        "WalkbackRM": [
+            8,
+            21
+        ],
+        "WalkRightRM": [
+            1,
+            14
+        ],
+        "TrotforwardRM": [
+            16
+        ],
+        "Jumpdown": [
+            12,
+            16
+        ],
+        "FlyRM": [
+            5,
+            10
+        ],
+        "AttackTrotRM": [
+            9,
+            12
+        ],
+        "FlyIP": [
+            5
+        ],
+        "RunrightRM": [
+            15,
+            11,
+            8
+        ],
+        "WalkbackLRM": [
+            8
+        ],
+        "SwimleftRM": [
+            6,
+            16
+        ],
+        "JumpRunRM": [
+            17,
+            33,
+            25
+        ],
+        "WalkleftRM": [
+            14
+        ],
+        "Attack2": [
+            14,
+            21
+        ],
+        "SwimRotLeftRM": [
+            21,
+            11
+        ],
+        "death1": [
+            27
+        ],
+        "eat1": [
+            60
+        ],
+        "AttackRunRM": [
+            15
+        ],
+        "Attack3": [
+            18,
+            7
+        ],
+        "RunleftRM": [
+            11,
+            15
+        ],
+        "RotateleftRM": [
+            12,
+            1
+        ],
+        "hiderotRight": [
+            6
+        ],
+        "LandingRM": [
+            6,
+            1
+        ]
+    },
+    "bear9AK": {
+        "CrouchbackRM": [
+            1,
+            14
+        ],
+        "AttackrunRM": [
+            14
+        ],
+        "CrouchbaclLRM": [
+            27,
+            14,
+            1
+        ],
+        "Rotate90R": [
+            20
+        ],
+        "SwimbackRRM": [
+            1,
+            11
+        ],
+        "Sleep": [
+            41
+        ],
+        "CrouchbaclRRM": [
+            1,
+            14,
+            27
+        ],
+        "Attack4": [
+            9,
+            17
+        ],
+        "RunleftRM": [
+            14,
+            1,
+            7
+        ],
+        "SwimRotRRM": [
+            27
+        ],
+        "Rotate180R": [
+            34
+        ],
+        "Death3": [
+            12
+        ],
+        "Jump": [
+            11
+        ],
+        "SwimbackLRM": [
+            22,
+            11,
+            1
+        ],
+        "SwimforwardRM": [
+            1,
+            22,
+            11
+        ],
+        "SwimRotLRM": [
+            14
+        ],
+        "Landing": [
+            5
+        ],
+        "RotateLeft": [
+            7
+        ],
+        "SwimbackRM": [
+            1
+        ],
+        "Hitmiddle": [
+            7
+        ],
+        "TrotrightRM": [
+            9
+        ],
+        "JumprunRM": [
+            30,
+            15
+        ],
+        "AttacktrotRM": [
+            16
+        ],
+        "Jumpdown": [
+            20,
+            11
+        ],
+        "FlyRM": [
+            1
+        ],
+        "Hitfront": [
+            7
+        ],
+        "Rotate180L": [
+            17,
+            34
+        ],
+        "RunrightRM": [
+            14
+        ],
+        "SwimrightRM": [
+            1
+        ],
+        "JumptrotRM": [
+            30
+        ],
+        "RotateRight": [
+            7
+        ],
+        "WalkhuntedRM": [
+            14
+        ],
+        "FlyIP": [
+            6
+        ],
+        "Death1": [
+            23
+        ]
+    },
+    "pumaRW": {
+        "Jump2": [
+            1,
+            42,
+            22
+        ],
+        "Fall3": [
+            10
+        ],
+        "Attacks2": [
+            12,
+            22
+        ],
+        "Attacks3": [
+            14,
+            26
+        ],
+        "Swim15": [
+            1
+        ],
+        "Swim17": [
+            1,
+            21
+        ],
+        "Swim9": [
+            23,
+            1
+        ],
+        "Walk0": [
+            23
+        ],
+        "Swim2": [
+            1,
+            12
+        ],
+        "Run2": [
+            6,
+            11
+        ],
+        "SneakTurn1": [
+            20
+        ],
+        "SneakTurn3": [
+            13
+        ],
+        "Sleep0": [
+            66
+        ],
+        "SneakTurn0": [
+            20
+        ],
+        "Trot2": [
+            18
+        ],
+        "Swim11": [
+            12
+        ],
+        "Damaged2": [
+            56
+        ],
+        "Damaged3": [
+            54
+        ],
+        "Trot1": [
+            18
+        ],
+        "WalkBack0": [
+            12
+        ],
+        "Fall0": [
+            16,
+            9
+        ],
+        "Run4": [
+            11,
+            6
+        ],
+        "Swim4": [
+            12,
+            1
+        ],
+        "Damaged0": [
+            24
+        ],
+        "Jump1": [
+            36,
+            19
+        ],
+        "Actions3": [
+            55
+        ],
+        "SneakTurn2": [
+            26,
+            1
+        ],
+        "Jump0": [
+            19,
+            36
+        ],
+        "Swim13": [
+            1
+        ],
+        "Run0": [
+            12
+        ],
+        "Sleep4": [
+            34
+        ],
+        "Swim8": [
+            1,
+            23
+        ],
+        "Turn0": [
+            39
+        ],
+        "WalkBack2": [
+            1
+        ],
+        "Death0": [
+            41
+        ]
+    },
+    "moose6OK9": {
+        "death2": [
+            27,
+            14
+        ],
+        "RunrightRM": [
+            12,
+            7
+        ],
+        "JumpFlyRM": [
+            10,
+            6
+        ],
+        "AttackRunRM": [
+            7
+        ],
+        "JumpTrotRM": [
+            16,
+            31
+        ],
+        "SwimRotLeftRM": [
+            18
+        ],
+        "SwimbackrightRM": [
+            9,
+            1
+        ],
+        "Attack2": [
+            12
+        ],
+        "JumpRunRM": [
+            13,
+            26
+        ],
+        "JumpLandingRM": [
+            1
+        ],
+        "RotateL180RM": [
+            14,
+            27
+        ],
+        "SwimleftRM": [
+            9,
+            18
+        ],
+        "SwimRotRightRM": [
+            9,
+            18
+        ],
+        "JumpFlyIP": [
+            1
+        ],
+        "RotateR180RM": [
+            27
+        ],
+        "death1": [
+            22
+        ],
+        "RotateRightRM": [
+            14
+        ],
+        "Jump": [
+            11
+        ],
+        "SwimbackleftRM": [
+            1
+        ],
+        "SwimforwardRM": [
+            1,
+            9,
+            18
+        ],
+        "lie": [
+            51
+        ],
+        "Attack3": [
+            20
+        ],
+        "hiderotRight": [
+            9
+        ],
+        "Jumpdown": [
+            25,
+            13
+        ],
+        "TrotforwardRM": [
+            14
+        ],
+        "WalkbackLRM": [
+            1,
+            12
+        ],
+        "eat1": [
+            67
+        ],
+        "SwimbackRM": [
+            18,
+            9
+        ],
+        "WalkbackRRM": [
+            1
+        ],
+        "SwimrightRM": [
+            9
+        ],
+        "TrotrightRM": [
+            7
+        ],
+        "WalkbackRM": [
+            1,
+            23
+        ],
+        "eat2": [
+            27
+        ],
+        "hiderotLeft": [
+            9
+        ],
+        "RunleftRM": [
+            12
+        ]
+    },
+    "deerVMW": {
+        "Rotateleft180RM": [
+            8,
+            5,
+            19,
+            15,
+            36,
+            26,
+            29,
+            22,
+            12
+        ],
+        "TrotleftRM": [
+            13,
+            8,
+            18,
+            6,
+            15,
+            10,
+            4
+        ],
+        "SwimrightRM": [
+            15,
+            12,
+            24,
+            19,
+            3,
+            8
+        ],
+        "hitfront": [
+            10,
+            3,
+            17
+        ],
+        "WalkforwardRM": [
+            16,
+            31
+        ],
+        "RunrightRM": [
+            10,
+            16,
+            6,
+            13,
+            3,
+            1
+        ],
+        "hiderotRight": [
+            7,
+            22,
+            1,
+            11
+        ],
+        "sleep": [
+            91,
+            55
+        ],
+        "hide": [
+            123
+        ],
+        "RunstopRM": [
+            12,
+            3,
+            18,
+            1
+        ],
+        "WalkhuntedRM": [
+            22,
+            10
+        ],
+        "hate": [
+            10,
+            28,
+            19
+        ],
+        "FlyIP": [
+            1
+        ]
+    },
+    "deerSPL": {
+        "Run4": [
+            9,
+            14,
+            18,
+            5
+        ],
+        "Swim11": [
+            2,
+            1,
+            4
+        ],
+        "Death4": [
+            15,
+            30,
+            59,
+            1,
+            44
+        ],
+        "Idle2": [
+            39
+        ],
+        "Fall0": [
+            27,
+            7,
+            20,
+            14
+        ],
+        "Fall3": [
+            11,
+            1
+        ],
+        "Walk4": [
+            14,
+            1,
+            27
+        ],
+        "Attack2": [
+            13,
+            25
+        ],
+        "Swim6": [
+            20,
+            7,
+            13
+        ],
+        "Swim7": [
+            1
+        ],
+        "Turn6": [
+            38,
+            19
+        ],
+        "Sleep3": [
+            24,
+            1
+        ],
+        "DeathOpp2": [
+            66,
+            33,
+            50
+        ],
+        "Sleep7": [
+            1,
+            13
+        ],
+        "Actions0": [
+            30
+        ],
+        "Swim4": [
+            19
+        ],
+        "WalkBack2": [
+            8
+        ],
+        "Jump1": [
+            29,
+            10,
+            20,
+            39
+        ],
+        "Attack6": [
+            47
+        ],
+        "Walk2": [
+            1,
+            20
+        ],
+        "GetHit3": [
+            39
+        ],
+        "Swim12": [
+            14
+        ],
+        "Swim10": [
+            13
+        ]
+    },
+    "foxXAT": {
+        "walkbackrightRM": [
+            9,
+            1
+        ],
+        "Rotate90R": [
+            6,
+            20
+        ],
+        "TrotleftRM": [
+            7,
+            1
+        ],
+        "JumpdownRM": [
+            14,
+            23,
+            18,
+            5,
+            10
+        ],
+        "runleftRM": [
+            1,
+            11,
+            14,
+            6
+        ],
+        "Attack2": [
+            13
+        ],
+        "SwimRotrightRM": [
+            25,
+            11
+        ],
+        "runrightRM": [
+            14,
+            1,
+            11,
+            9
+        ],
+        "death1": [
+            15,
+            24
+        ],
+        "JumplandingRM": [
+            1,
+            4
+        ],
+        "SwimBackrightRM": [
+            16,
+            1
+        ],
+        "Attack1": [
+            13
+        ],
+        "Rotate180L": [
+            26,
+            42,
+            17,
+            9
+        ],
+        "Rotate180R": [
+            34,
+            26
+        ],
+        "HiderotL": [
+            7
+        ],
+        "walkbackRM": [
+            1,
+            13
+        ],
+        "Attack3": [
+            14,
+            8
+        ],
+        "Lie": [
+            61
+        ],
+        "Crouchbackright": [
+            1,
+            22
+        ],
+        "SwimRotleftRM": [
+            11,
+            25
+        ],
+        "walkbackleftRM": [
+            5
+        ],
+        "eat2": [
+            67
+        ],
+        "runstopRM": [
+            10
+        ],
+        "SwimidleRM": [
+            14,
+            34
+        ]
+    },
+    "foxZED": {
+        "JumprunRM": [
+            38,
+            19,
+            29
+        ],
+        "HiderotR": [
+            16
+        ],
+        "JumpupRM": [
+            17,
+            11,
+            22
+        ],
+        "JumptrotRM": [
+            36,
+            19,
+            27,
+            10
+        ],
+        "SwimBackleftRM": [
+            7,
+            24
+        ],
+        "runforwardRM": [
+            13,
+            7
+        ],
+        "AttacktrotRM": [
+            32,
+            17,
+            24
+        ],
+        "TrotforwardRM": [
+            12
+        ],
+        "RotaterightRM": [
+            16
+        ],
+        "Rotate90L": [
+            24,
+            7
+        ],
+        "SwimrightRM": [
+            24,
+            1,
+            13
+        ],
+        "Crouchright": [
+            26,
+            13,
+            1
+        ],
+        "SwimleftRM": [
+            13
+        ],
+        "AttackrunRM": [
+            36,
+            1,
+            10,
+            27
+        ],
+        "walkleftRM": [
+            19,
+            10
+        ],
+        "Crouchback": [
+            1
+        ],
+        "death2": [
+            12,
+            23
+        ],
+        "Jump": [
+            8,
+            15,
+            21
+        ],
+        "SwimbackRM": [
+            1,
+            14
+        ],
+        "eat1": [
+            41
+        ],
+        "SwimforwardRM": [
+            7
+        ],
+        "Crouchbackleft": [
+            1
+        ],
+        "JumpflyRM": [
+            5,
+            1,
+            8
+        ],
+        "Crouchforward": [
+            7
+        ]
+    },
+    "deerK5L": {
+        "hiderotLeft": [
+            1,
+            11
+        ],
+        "RunleftRM": [
+            6,
+            16,
+            11
+        ],
+        "SwimRotRightRM": [
+            15,
+            1,
+            22,
+            8
+        ],
+        "eat1": [
+            72
+        ],
+        "SwimbackRM": [
+            22,
+            5,
+            15
+        ],
+        "SwimIdle": [
+            7
+        ],
+        "hitback": [
+            9
+        ],
+        "JumpRunRM": [
+            12,
+            22,
+            17,
+            33,
+            6,
+            27
+        ],
+        "SwimforwardRM": [
+            8,
+            22,
+            15
+        ],
+        "TrotrightRM": [
+            17,
+            9,
+            4
+        ],
+        "RotateRight90RM": [
+            9,
+            26
+        ],
+        "TrotforwardRM": [
+            12,
+            17,
+            4
+        ],
+        "Jump": [
+            18,
+            13,
+            5
+        ],
+        "Attack1": [
+            8
+        ],
+        "SwimRotLeftRM": [
+            12,
+            22,
+            5
+        ],
+        "RotateRightRM": [
+            12
+        ],
+        "SwimleftRM": [
+            8,
+            15,
+            22
+        ],
+        "WalkbackLRM": [
+            25,
+            1
+        ],
+        "JumpTrotRM": [
+            27,
+            20,
+            33
+        ],
+        "WalkbackRM": [
+            10
+        ],
+        "Attack3": [
+            22
+        ]
+    },
+    "bear84Q": {
+        "CrouchbackRM": [
+            1
+        ],
+        "AttackrunRM": [
+            14
+        ],
+        "SwimRotRRM": [
+            14
+        ],
+        "CrouchbaclLRM": [
+            27,
+            14,
+            1
+        ],
+        "Death2": [
+            11,
+            20
+        ],
+        "Rotate90R": [
+            20
+        ],
+        "SwimbackRRM": [
+            1,
+            11,
+            22
+        ],
+        "CrouchbaclRRM": [
+            1,
+            14
+        ],
+        "Attack4": [
+            9,
+            17
+        ],
+        "FlyRM": [
+            6,
+            10,
+            1
+        ],
+        "RunleftRM": [
+            14,
+            7
+        ],
+        "Landing": [
+            8
+        ],
+        "Rotate180R": [
+            34
+        ],
+        "Death3": [
+            12
+        ],
+        "SwimbackLRM": [
+            22,
+            11,
+            1
+        ],
+        "Sleep": [
+            1
+        ],
+        "SwimforwardRM": [
+            1,
+            22,
+            11
+        ],
+        "SwimRotLRM": [
+            14
+        ],
+        "SwimbackRM": [
+            1
+        ],
+        "attack2": [
+            17
+        ],
+        "JumprunRM": [
+            30,
+            15
+        ],
+        "TrotforwardRM": [
+            9
+        ],
+        "AttacktrotRM": [
+            16
+        ],
+        "RunrightRM": [
+            7,
+            14
+        ],
+        "Jumpdown": [
+            20,
+            11
+        ],
+        "HideRotR": [
+            11
+        ],
+        "Hitfront": [
+            7
+        ],
+        "Rotate180L": [
+            17,
+            34
+        ],
+        "JumptrotRM": [
+            30
+        ],
+        "Rotate90L": [
+            11
+        ],
+        "attack1": [
+            17
+        ],
+        "TrotleftRM": [
+            1
+        ]
+    },
+    "hippoDG": {
+        "bite": [
+            3,
+            4,
+            14,
+            18,
+            6,
+            12,
+            5,
+            7,
+            25,
+            22,
+            2,
+            16,
+            8,
+            11,
+            13,
+            15,
+            10,
+            1
+        ],
+        "die": [
+            29,
+            35,
+            53,
+            45,
+            2,
+            59,
+            12,
+            61,
+            49,
+            43,
+            28,
+            41,
+            36,
+            39,
+            32,
+            33,
+            67,
+            10,
+            26,
+            57,
+            47,
+            6,
+            30
+        ],
+        "gethit": [
+            7,
+            19,
+            5,
+            4,
+            28,
+            8,
+            14,
+            1,
+            23
+        ]
+    },
+    "huskydog3T": {
+        "Jump2": [
+            1,
+            19,
+            27,
+            36
+        ],
+        "Attacks5": [
+            18,
+            12
+        ],
+        "Idles5": [
+            23
+        ],
+        "Death0": [
+            25,
+            49
+        ],
+        "Swim11": [
+            8,
+            21
+        ],
+        "Damaged3": [
+            44
+        ],
+        "Swim15": [
+            1
+        ],
+        "Jump1": [
+            43,
+            33,
+            22
+        ],
+        "Swim2": [
+            20,
+            7
+        ],
+        "Trot1": [
+            21,
+            16
+        ],
+        "Swim9": [
+            1,
+            27,
+            14
+        ],
+        "Trot2": [
+            6,
+            21,
+            16,
+            11
+        ],
+        "Actions5": [
+            33,
+            65,
+            17,
+            49
+        ],
+        "WalkBack1": [
+            14,
+            1
+        ],
+        "Swim0": [
+            1
+        ],
+        "Actions3": [
+            60
+        ],
+        "Swim13": [
+            14,
+            1,
+            27
+        ],
+        "Walk1": [
+            1
+        ],
+        "Turn2": [
+            1,
+            23
+        ],
+        "Attacks0": [
+            24
+        ],
+        "WalkBack2": [
+            8,
+            27
+        ],
+        "Run0": [
+            4,
+            14
+        ],
+        "Turn0": [
+            24
+        ],
+        "Sleep4": [
+            80
+        ],
+        "Damaged5": [
+            40,
+            21
+        ]
+    },
+    "deerA4K": {
+        "JumpTrotRM": [
+            40,
+            14,
+            27,
+            20,
+            33,
+            7
+        ],
+        "TrotrightRM": [
+            15,
+            17,
+            12,
+            4
+        ],
+        "WalkforwardRM": [
+            20,
+            29
+        ],
+        "SwimRotRightRM": [
+            15,
+            1,
+            22,
+            8
+        ],
+        "RunforwardRM": [
+            11,
+            16,
+            3,
+            8,
+            13
+        ],
+        "drink": [
+            86
+        ],
+        "WalkbackRRM": [
+            15,
+            1,
+            10
+        ],
+        "hate": [
+            15,
+            29
+        ],
+        "hide": [
+            44
+        ],
+        "SwimrightRM": [
+            5,
+            12,
+            19,
+            22
+        ],
+        "RotateRight90RM": [
+            18,
+            26,
+            5,
+            13
+        ],
+        "Jump": [
+            18,
+            9,
+            13
+        ],
+        "Rotateleft90RM": [
+            9,
+            26,
+            5,
+            18
+        ],
+        "Attack1": [
+            15,
+            4
+        ],
+        "sleep": [
+            58
+        ],
+        "WalkhuntedRM": [
+            10
+        ],
+        "Idle2": [
+            58
+        ],
+        "lie": [
+            22
+        ],
+        "hitfront": [
+            15
+        ]
+    },
+    "elkML": {
+        "GetHit3": [
+            33
+        ],
+        "Actions1": [
+            66
+        ],
+        "DeathOpp5": [
+            25,
+            48
+        ],
+        "Fall5": [
+            1,
+            19
+        ],
+        "GetHit6": [
+            34
+        ],
+        "Swim14": [
+            1
+        ],
+        "Turn3": [
+            32,
+            17
+        ],
+        "Swim9": [
+            1,
+            3
+        ],
+        "Swim7": [
+            1
+        ],
+        "Run2": [
+            14,
+            8
+        ],
+        "Idle4": [
+            21
+        ],
+        "Death5": [
+            25,
+            48
+        ],
+        "Fall2": [
+            18
+        ],
+        "Turn2": [
+            17,
+            34
+        ],
+        "Death3": [
+            55
+        ],
+        "Jump1": [
+            33,
+            17
+        ],
+        "Fall1": [
+            4,
+            1,
+            2
+        ],
+        "Swim0": [
+            12
+        ],
+        "GetHit4": [
+            38
+        ],
+        "WalkBack0": [
+            12
+        ],
+        "Idle1": [
+            66
+        ],
+        "Swim6": [
+            11
+        ],
+        "Trot0": [
+            16
+        ],
+        "Run0": [
+            8,
+            14
+        ],
+        "Death1": [
+            1
+        ],
+        "Swim12": [
+            1
+        ],
+        "DeathOpp1": [
+            8
+        ],
+        "Walk4": [
+            33
+        ],
+        "Jump0": [
+            32,
+            17
+        ],
+        "Run4": [
+            16
+        ],
+        "Swim11": [
+            1
+        ],
+        "Fall0": [
+            22
+        ],
+        "Attack2": [
+            21
+        ],
+        "DeathOpp3": [
+            55
+        ],
+        "DeathOpp0": [
+            23
+        ],
+        "WalkBack2": [
+            1
+        ],
+        "GetHit0": [
+            37
+        ],
+        "Death0": [
+            23
+        ]
+    },
+    "raccoonVGG": {
+        "DeathOpp0": [
+            66
+        ],
+        "Swim16": [
+            21
+        ],
+        "Run2": [
+            12,
+            6
+        ],
+        "Swim2": [
+            1,
+            23,
+            12
+        ],
+        "Swim10": [
+            1
+        ],
+        "DeathOpp1": [
+            54
+        ],
+        "Dodge2": [
+            9,
+            17
+        ],
+        "Death1": [
+            54
+        ],
+        "Trot0": [
+            9
+        ],
+        "Dodge4": [
+            17
+        ],
+        "Jump2": [
+            31,
+            16
+        ],
+        "Climb7": [
+            21
+        ],
+        "Turn14": [
+            17
+        ],
+        "Dodge10": [
+            17
+        ],
+        "Turn10": [
+            28
+        ],
+        "Attacks0": [
+            24
+        ],
+        "WalkBack2": [
+            12,
+            23,
+            1
+        ],
+        "Dodge6": [
+            9,
+            17
+        ],
+        "Swim4": [
+            12
+        ],
+        "Climb15": [
+            1
+        ],
+        "Climb11": [
+            21
+        ],
+        "Dodge0": [
+            9,
+            17
+        ],
+        "Idle6": [
+            1
+        ],
+        "WalkTwoFeet0": [
+            9,
+            17
+        ],
+        "Climb3": [
+            21
+        ],
+        "Jump0": [
+            19,
+            36
+        ],
+        "Fall3": [
+            1
+        ],
+        "SleepLieSeat3": [
+            21
+        ],
+        "Dodge14": [
+            16,
+            9
+        ],
+        "Swim8": [
+            1,
+            12
+        ],
+        "WalkTwoFeet2": [
+            16
+        ],
+        "Turn0": [
+            14
+        ],
+        "SleepLieSeat5": [
+            1
+        ],
+        "Run0": [
+            1,
+            6
+        ],
+        "Turn18": [
+            17
+        ],
+        "Walk22": [
+            1
+        ]
+    },
+    "tigerD8H": {
+        "Jump0": [
+            20,
+            38
+        ],
+        "Actions5": [
+            29
+        ],
+        "Attacks2": [
+            12
+        ],
+        "Actions6": [
+            28,
+            1
+        ],
+        "Swim15": [
+            1,
+            12
+        ],
+        "Run2": [
+            12,
+            7
+        ],
+        "Run1": [
+            12,
+            7
+        ],
+        "Attacks3": [
+            13,
+            25
+        ],
+        "Jump1": [
+            34,
+            1,
+            18
+        ],
+        "Swim9": [
+            23,
+            1
+        ],
+        "Damaged2": [
+            54
+        ],
+        "Swim17": [
+            21
+        ],
+        "Damaged5": [
+            34
+        ],
+        "Turn1": [
+            39
+        ],
+        "Swim0": [
+            1,
+            22
+        ],
+        "Sleep9": [
+            66
+        ],
+        "Trot1": [
+            9
+        ],
+        "Jump2": [
+            31,
+            16
+        ],
+        "Walk1": [
+            1
+        ],
+        "Sleep6": [
+            66
+        ],
+        "Turn2": [
+            1
+        ],
+        "Damaged3": [
+            54
+        ],
+        "Fall1": [
+            15
+        ],
+        "Attacks0": [
+            26
+        ],
+        "Fall0": [
+            16,
+            9
+        ],
+        "Attacks1": [
+            26
+        ],
+        "Damaged4": [
+            35
+        ],
+        "Actions0": [
+            22
+        ],
+        "Death1": [
+            27,
+            53
+        ],
+        "Swim11": [
+            1
+        ],
+        "Swim13": [
+            1,
+            12
+        ],
+        "Swim8": [
+            1,
+            23
+        ],
+        "Sleep2": [
+            1
+        ],
+        "Walk2": [
+            12
+        ],
+        "Death0": [
+            41
+        ]
+    },
+    "elephantLN0": {
+        "act4": [
+            421,
+            474,
+            369
+        ],
+        "act1": [
+            32,
+            28,
+            39,
+            42,
+            25,
+            56,
+            52,
+            15,
+            8,
+            45,
+            11,
+            59
+        ],
+        "act5": [
+            9,
+            75,
+            67
+        ],
+        "act2": [
+            64,
+            81,
+            93,
+            53,
+            41,
+            76
+        ],
+        "act6": [
+            6,
+            64,
+            12,
+            69,
+            48,
+            1,
+            17
+        ],
+        "act7": [
+            9,
+            51,
+            134,
+            68
+        ],
+        "act3": [
+            15,
+            29,
+            26,
+            10,
+            17,
+            6,
+            13,
+            31,
+            22
+        ],
+        "act8": [
+            55,
+            66,
+            62,
+            9,
+            1,
+            36
+        ]
+    },
+    "deerLO1": {
+        "eat2": [
+            70,
+            11,
+            1
+        ],
+        "AttackRunRM": [
+            7,
+            16,
+            14,
+            12,
+            5
+        ],
+        "RotateRight180RM": [
+            25,
+            6,
+            35,
+            16,
+            11,
+            21
+        ],
+        "WalkleftRM": [
+            30,
+            22,
+            13
+        ],
+        "Idle3": [
+            38
+        ],
+        "death1": [
+            25,
+            21
+        ],
+        "FlyRM": [
+            5,
+            8,
+            1,
+            11
+        ],
+        "LandingRM": [
+            4,
+            1
+        ],
+        "death2": [
+            25,
+            6,
+            35
+        ],
+        "WalkRightRM": [
+            22,
+            13
+        ],
+        "Jumpdown": [
+            15,
+            13,
+            8,
+            11,
+            18
+        ],
+        "Rotateleft90RM": [
+            23,
+            5
+        ],
+        "Attack2": [
+            22,
+            18
+        ],
+        "WalkbackRRM": [
+            1
+        ],
+        "RunforwardRM": [
+            7,
+            5,
+            3
+        ],
+        "AttackTrotRM": [
+            15,
+            8,
+            18
+        ],
+        "RotateleftRM": [
+            13,
+            6
+        ],
+        "lie": [
+            113
+        ]
+    },
+    "cattleAFK": {
+        "Death1": [
+            20,
+            17,
+            11,
+            30,
+            23
+        ],
+        "TurnL": [
+            12,
+            5,
+            18
+        ],
+        "SwimBL": [
+            24,
+            14,
+            1,
+            9,
+            19
+        ],
+        "WalkB": [
+            7,
+            16,
+            24,
+            1
+        ],
+        "SwimFR": [
+            1,
+            9,
+            24,
+            16
+        ],
+        "RunR": [
+            7,
+            9,
+            4,
+            15,
+            12,
+            1
+        ],
+        "Liesleep": [
+            31,
+            1
+        ],
+        "Fallstart": [
+            18,
+            9,
+            7,
+            16,
+            14,
+            12
+        ],
+        "TurnR": [
+            18,
+            11,
+            1
+        ],
+        "Attack3": [
+            21,
+            8
+        ],
+        "Attack2": [
+            8,
+            3,
+            23,
+            15
+        ],
+        "WalkBL": [
+            1,
+            27,
+            21,
+            10
+        ],
+        "Drink": [
+            25
+        ],
+        "Fallhigh": [
+            1
+        ]
+    },
+    "bear3EP": {
+        "CrouchbackRM": [
+            1
+        ],
+        "AttackrunRM": [
+            14
+        ],
+        "SwimRotRRM": [
+            14
+        ],
+        "Death2": [
+            11,
+            20
+        ],
+        "TrotleftRM": [
+            16
+        ],
+        "Rotate90R": [
+            20
+        ],
+        "SwimbackRRM": [
+            1,
+            11,
+            22
+        ],
+        "SwimbackRM": [
+            22,
+            1
+        ],
+        "CrouchbaclRRM": [
+            1,
+            14
+        ],
+        "Attack4": [
+            9,
+            17
+        ],
+        "FlyRM": [
+            6,
+            10,
+            1
+        ],
+        "RunleftRM": [
+            14,
+            1,
+            7
+        ],
+        "Lie": [
+            51
+        ],
+        "CrouchbaclLRM": [
+            14,
+            1
+        ],
+        "Rotate180R": [
+            34
+        ],
+        "Death3": [
+            12
+        ],
+        "SwimRotLRM": [
+            14
+        ],
+        "SwimforwardRM": [
+            22
+        ],
+        "SwimbackLRM": [
+            11,
+            1
+        ],
+        "JumprunRM": [
+            30,
+            1,
+            15
+        ],
+        "SwimIdleRM": [
+            17
+        ],
+        "TrotforwardRM": [
+            9
+        ],
+        "AttacktrotRM": [
+            16
+        ],
+        "RunrightRM": [
+            7,
+            14
+        ],
+        "Jumpdown": [
+            20,
+            11
+        ],
+        "Rotate180L": [
+            17,
+            34
+        ],
+        "JumptrotRM": [
+            30
+        ],
+        "Hitfront": [
+            14
+        ],
+        "WalkbackLRM": [
+            22
+        ],
+        "Rotate90L": [
+            11
+        ],
+        "HideRotR": [
+            20
+        ],
+        "TrotrightRM": [
+            16
+        ],
+        "Death1": [
+            23
+        ]
+    },
+    "deerFEL": {
+        "death2": [
+            27
+        ],
+        "SwimRotLeftRM": [
+            9,
+            18
+        ],
+        "RunrightRM": [
+            12
+        ],
+        "AttackTrotRM": [
+            7,
+            14
+        ],
+        "AttackRunRM": [
+            7
+        ],
+        "TrotleftRM": [
+            7
+        ],
+        "JumpTrotRM": [
+            16,
+            31
+        ],
+        "Attack2": [
+            12
+        ],
+        "JumpRunRM": [
+            13,
+            26
+        ],
+        "RotateRight180RM": [
+            27
+        ],
+        "FlyRM": [
+            5,
+            8,
+            1
+        ],
+        "Rotateleft180RM": [
+            27
+        ],
+        "WalkbackRM": [
+            12
+        ],
+        "RotateRightRM": [
+            1,
+            14
+        ],
+        "hate": [
+            17
+        ],
+        "SwimleftRM": [
+            9,
+            18
+        ],
+        "SwimRotRightRM": [
+            9,
+            18
+        ],
+        "death1": [
+            22
+        ],
+        "Jump": [
+            11
+        ],
+        "SwimforwardRM": [
+            1,
+            9,
+            18
+        ],
+        "lie": [
+            51
+        ],
+        "RotateleftRM": [
+            14,
+            1
+        ],
+        "hiderotRight": [
+            9
+        ],
+        "WalkbackLRM": [
+            1
+        ],
+        "eat1": [
+            67
+        ],
+        "SwimbackRM": [
+            18,
+            9
+        ],
+        "WalkbackRRM": [
+            1
+        ],
+        "SwimrightRM": [
+            9,
+            18
+        ],
+        "TrotrightRM": [
+            7
+        ],
+        "Attack3": [
+            11
+        ],
+        "RunleftRM": [
+            7,
+            12
+        ],
+        "hiderotLeft": [
+            9
+        ],
+        "LandingRM": [
+            1
+        ],
+        "Jumpdown": [
+            14
+        ],
+        "RunforwardRM": [
+            12
+        ]
+    },
+    "canieLTT": {
+        "Swim8": [
+            27,
+            8
+        ],
+        "Damaged4": [
+            11,
+            32,
+            21,
+            42
+        ],
+        "Swim4": [
+            27,
+            14,
+            7
+        ],
+        "Attacks3": [
+            14,
+            7
+        ],
+        "Run4": [
+            14,
+            1,
+            4,
+            7,
+            11
+        ],
+        "Swim17": [
+            1,
+            48,
+            13,
+            25
+        ],
+        "Damaged2": [
+            43
+        ],
+        "Turn3": [
+            8,
+            31
+        ],
+        "Damaged1": [
+            14
+        ],
+        "Run2": [
+            14,
+            4,
+            7,
+            11,
+            1
+        ],
+        "WalkBack0": [
+            14,
+            27,
+            1
+        ],
+        "Death1": [
+            63,
+            48
+        ],
+        "Attacks1": [
+            22
+        ],
+        "Jump0": [
+            12,
+            33,
+            22
+        ],
+        "FallEdgeForward0": [
+            19,
+            15
+        ],
+        "Sleep5": [
+            19
+        ],
+        "Trot0": [
+            21,
+            11
+        ],
+        "Idles2": [
+            16
+        ],
+        "Walk0": [
+            27
+        ],
+        "Idles4": [
+            42
+        ],
+        "Sleep1": [
+            1
+        ],
+        "Turn1": [
+            47
+        ],
+        "FallEdgeForward1": [
+            1
+        ],
+        "Actions1": [
+            85
+        ]
+    },
+    "bucksYJL": {
+        "Actions1": [
+            1
+        ],
+        "Run2": [
+            12,
+            6,
+            17,
+            1
+        ],
+        "Death2": [
+            21,
+            62,
+            42
+        ],
+        "Fall5": [
+            28,
+            15
+        ],
+        "WalkBack4": [
+            17
+        ],
+        "DeathOpp0": [
+            42,
+            15
+        ],
+        "Swim9": [
+            1,
+            4
+        ],
+        "Fall2": [
+            1
+        ],
+        "DeathOpp4": [
+            38,
+            19,
+            56
+        ],
+        "Turn2": [
+            25
+        ],
+        "GetHit2": [
+            25,
+            13
+        ],
+        "Run6": [
+            6,
+            16,
+            11
+        ],
+        "GetHit0": [
+            42
+        ],
+        "Trot0": [
+            7,
+            13
+        ],
+        "Trot4": [
+            14,
+            20,
+            7
+        ],
+        "Turn0": [
+            9,
+            26
+        ],
+        "GetHit5": [
+            42
+        ],
+        "Death0": [
+            42,
+            15
+        ],
+        "Trot2": [
+            7
+        ],
+        "Jump0": [
+            13,
+            37,
+            25
+        ],
+        "Attack4": [
+            54
+        ],
+        "Swim1": [
+            7
+        ],
+        "Sleep4": [
+            30
+        ],
+        "Sleep0": [
+            45
+        ],
+        "Swim14": [
+            9
+        ],
+        "Turn4": [
+            25,
+            37
+        ],
+        "Attack0": [
+            19
+        ],
+        "WalkBack0": [
+            1
+        ],
+        "GetHit8": [
+            37
+        ]
+    },
+    "leopardSLM": {
+        "roam": [
+            214,
+            194,
+            125,
+            197,
+            151,
+            217,
+            110,
+            179,
+            311,
+            202,
+            189,
+            115,
+            346,
+            181,
+            265,
+            252,
+            260,
+            280,
+            275,
+            209,
+            242,
+            103,
+            118,
+            245,
+            240,
+            219,
+            192,
+            222,
+            324,
+            113,
+            212,
+            207,
+            105,
+            225,
+            72,
+            31,
+            255,
+            270,
+            128,
+            258,
+            24,
+            263,
+            98,
+            344,
+            250,
+            131,
+            268,
+            235,
+            108,
+            247
+        ]
+    },
+    "milkcow10L": {
+        "WalkBR": [
+            1,
+            14,
+            27
+        ],
+        "JumpRun": [
+            31,
+            27,
+            18,
+            23,
+            14,
+            5,
+            10,
+            36
+        ],
+        "WalkL": [
+            17,
+            7,
+            1,
+            27
+        ],
+        "Lie": [
+            27,
+            80
+        ],
+        "SwimIdle": [
+            14,
+            31
+        ],
+        "TrotR": [
+            18,
+            7,
+            12,
+            3
+        ],
+        "Jumpplace": [
+            24,
+            17,
+            20,
+            13
+        ],
+        "AttackRun": [
+            4,
+            14,
+            11,
+            9,
+            6,
+            1
+        ],
+        "JumpF": [
+            24,
+            20,
+            27,
+            31,
+            16,
+            9,
+            12
+        ],
+        "SwimF": [
+            15,
+            7,
+            23
+        ],
+        "Idle4": [
+            78
+        ],
+        "Eat": [
+            107,
+            67
+        ],
+        "Falllow": [
+            1
+        ],
+        "Hitback": [
+            5
+        ],
+        "Idle2": [
+            56
+        ],
+        "Attack1": [
+            9
+        ]
+    },
+    "foxYSY": {
+        "walkbackrightRM": [
+            9
+        ],
+        "drink": [
+            34
+        ],
+        "runleftRM": [
+            1,
+            11
+        ],
+        "walkbackleftRM": [
+            9
+        ],
+        "Attack2": [
+            16
+        ],
+        "Rotate90L": [
+            20
+        ],
+        "Lie": [
+            80
+        ],
+        "JumplandingRM": [
+            1
+        ],
+        "JumprunRM": [
+            16,
+            32
+        ],
+        "runforwardRM": [
+            11
+        ],
+        "SwimBackrightRM": [
+            20,
+            11,
+            1
+        ],
+        "HiderotL": [
+            14
+        ],
+        "SwimforwardRM": [
+            20,
+            1,
+            11
+        ],
+        "SwimBackleftRM": [
+            1,
+            11
+        ],
+        "JumpupRM": [
+            18,
+            10
+        ],
+        "AttacktrotRM": [
+            27,
+            14
+        ],
+        "Rotate180R": [
+            34,
+            17
+        ],
+        "JumptrotRM": [
+            16,
+            30
+        ],
+        "walkbackRM": [
+            1
+        ],
+        "JumpflyRM": [
+            4,
+            1
+        ],
+        "HiderotR": [
+            14
+        ],
+        "SwimbackRM": [
+            1
+        ],
+        "walkforwardRM": [
+            16
+        ],
+        "runrightRM": [
+            11
+        ],
+        "JumpdownRM": [
+            18,
+            10
+        ],
+        "Crouchbackright": [
+            1,
+            22
+        ],
+        "death1": [
+            19
+        ],
+        "SwimRotleftRM": [
+            11
+        ],
+        "Jump": [
+            24,
+            12
+        ],
+        "TrotforwardRM": [
+            7
+        ],
+        "Crouchbackleft": [
+            1
+        ],
+        "eat2": [
+            67
+        ],
+        "AttackrunRM": [
+            30
+        ],
+        "Rotate180L": [
+            34
+        ],
+        "SwimRotrightRM": [
+            20
+        ]
+    }
+}

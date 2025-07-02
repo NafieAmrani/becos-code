@@ -6,19 +6,3 @@
 __pycache__
 
 output/
-
-precomputed_remeshed/
-
-corres_comp/precomputed_shapes/
-
-precomputed_shapes/
-
-corres_comp/precomputed_corres/
-
-geodesic_cal/
-
-corres_comp/precomputed_corres/
-corres_comp/precomputed_shapes/
-new_dataset/
-
-data/
