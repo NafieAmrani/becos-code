@@ -56,7 +56,9 @@ def get_filename_bary_corres(filename: str, dataset: str = ""):
 def read_corres_different_dataset(
     source_name, target_name, source_dataset, target_dataset
 ):
-    corres_folder = f"{os.path.dirname(os.path.realpath(__file__))}/../precomputed_corr_templates/"
+    corres_folder = (
+        f"{os.path.dirname(os.path.realpath(__file__))}/../precomputed_corr_templates/"
+    )
     # split source and target name
     source_name = get_filename_bary_corres(source_name, source_dataset)
     target_name = get_filename_bary_corres(target_name, target_dataset)
@@ -78,7 +80,9 @@ def read_corres_different_dataset(
     return bary_corres
 
 
-def read_corres_same_dataset(general_config: dict, source: dict, target: dict, data_dir: str):
+def read_corres_same_dataset(
+    general_config: dict, source: dict, target: dict, data_dir: str
+):
     conf = Path(
         f"{os.path.dirname(os.path.realpath(__file__))}/../config/{source['org_dataset']}.yaml"
     )
@@ -95,9 +99,13 @@ def read_corres_same_dataset(general_config: dict, source: dict, target: dict, d
             source_name = source["name"]
             precomputed_shape = f"{source_name}_V.npy"
             precomputed_shape = precomputed_shape.replace("/", "_")
-            precomputed_folder = f"{os.path.dirname(os.path.realpath(__file__))}/precomputed_shapes"
+            precomputed_folder = (
+                f"{os.path.dirname(os.path.realpath(__file__))}/precomputed_shapes"
+            )
             if isfile(f"{precomputed_folder}/{precomputed_shape}") and use_precomputed:
-                V = np.load(f"{precomputed_folder}/{precomputed_shape}", allow_pickle=True)
+                V = np.load(
+                    f"{precomputed_folder}/{precomputed_shape}", allow_pickle=True
+                )
             else:
                 foldername = config["folder_name"]
                 shape_filetype = config["file_type"]
@@ -117,19 +125,33 @@ def get_corr_for_path(config: dict, path: List[dict], data_dir: str):
     for i in range(len(path) - 1):
         source = path[i]
         target = path[i + 1]
-        precomputed_folder = os.path.join(os.path.dirname(os.path.realpath(__file__)), "precomputed_corres")
-        precomputed_source_name = source['name'].replace("/", "_")
-        precomputed_target_name = target['name'].replace("/", "_")
+        precomputed_folder = os.path.join(
+            os.path.dirname(os.path.realpath(__file__)), "precomputed_corres"
+        )
+        precomputed_source_name = source["name"].replace("/", "_")
+        precomputed_target_name = target["name"].replace("/", "_")
         precomputed_name = f"{precomputed_folder}/{precomputed_source_name}_{precomputed_target_name}_corres.npz"
         if isfile(precomputed_name) and use_precomputed:
             corres_dict = np.load(precomputed_name)
-            corres_src_target = {"corres": corres_dict["corres"], "same_tr": corres_dict["same_tr"].item(), "barycentric": corres_dict["barycentric"].item()}
+            corres_src_target = {
+                "corres": corres_dict["corres"],
+                "same_tr": corres_dict["same_tr"].item(),
+                "barycentric": corres_dict["barycentric"].item(),
+            }
         else:
-            corres_src_target = get_corres_between_src_target(config, data_dir, corr_path, source, target)
-            if save_precomputed: 
-                np.savez(precomputed_name, corres=corres_src_target["corres"], same_tr=corres_src_target["same_tr"], barycentric=corres_src_target["barycentric"])
+            corres_src_target = get_corres_between_src_target(
+                config, data_dir, corr_path, source, target
+            )
+            if save_precomputed:
+                np.savez(
+                    precomputed_name,
+                    corres=corres_src_target["corres"],
+                    same_tr=corres_src_target["same_tr"],
+                    barycentric=corres_src_target["barycentric"],
+                )
         corr_path.append(corres_src_target)
     return corr_path
+
 
 def get_corres_between_src_target(general_config, data_dir, corr_path, source, target):
     corres_between_src_target = None
@@ -138,8 +160,8 @@ def get_corres_between_src_target(general_config, data_dir, corr_path, source, t
     source_dataset = source["org_dataset"]
     target_dataset = target["org_dataset"]
     conf_file = Path(
-            f"{os.path.dirname(os.path.realpath(__file__))}/../config/{source_dataset}.yaml"
-        )
+        f"{os.path.dirname(os.path.realpath(__file__))}/../config/{source_dataset}.yaml"
+    )
     with open(conf_file, "r") as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
     corres_given = config["corr_given"]
@@ -148,13 +170,19 @@ def get_corres_between_src_target(general_config, data_dir, corr_path, source, t
             cat_source = source_name.split("/")[0]
             cat_target = target_name.split("/")[0]
             if cat_source == cat_target:
-                corres = read_corres_same_dataset(general_config, source, target, data_dir)
-                corres_between_src_target = {"corres": corres, "same_tr": True, "barycentric": False}
+                corres = read_corres_same_dataset(
+                    general_config, source, target, data_dir
+                )
+                corres_between_src_target = {
+                    "corres": corres,
+                    "same_tr": True,
+                    "barycentric": False,
+                }
             else:
                 found_same_tr = False
                 cat_source = source_name.split("/")[0]
                 cat_target = target_name.split("/")[0]
-                    # load same_tr file
+                # load same_tr file
                 same_tr = f"{os.path.dirname(os.path.realpath(__file__))}/../precomputed_corr_templates/same_triangulation_dt4d_animals.txt"
                 with open(same_tr, "r") as f:
                     lines = f.readlines()
@@ -164,57 +192,77 @@ def get_corres_between_src_target(general_config, data_dir, corr_path, source, t
                     cat_same_tr_1 = cat_same_tr_1.split("_")[1]
                     cat_same_tr_2 = cat_same_tr_2.split("_")[1]
                     if (
-                            cat_source == cat_same_tr_1
-                            and cat_target == cat_same_tr_2
-                            or cat_source == cat_same_tr_2
-                            and cat_target == cat_same_tr_1
+                        cat_source == cat_same_tr_1
+                        and cat_target == cat_same_tr_2
+                        or cat_source == cat_same_tr_2
+                        and cat_target == cat_same_tr_1
+                    ):
+                        corres = read_corres_same_dataset(
+                            general_config, source, target, data_dir
+                        )
+                        # here only p2p
+                        if ("catBG" in cat_source and "leopardSLM" in cat_target) or (
+                            "catBG" in cat_target and "leopardSLM" in cat_source
                         ):
-                        corres = read_corres_same_dataset(general_config, source, target, data_dir)
-                            # here only p2p
-                        if (
-                                "catBG" in cat_source and "leopardSLM" in cat_target
-                            ) or ("catBG" in cat_target and "leopardSLM" in cat_source):
                             same_tr = False
                         else:
                             same_tr = True
                         corres_between_src_target = {
-                                    "corres": corres,
-                                    "same_tr": same_tr,
-                                    "barycentric": False,
-                                }
-                            
+                            "corres": corres,
+                            "same_tr": same_tr,
+                            "barycentric": False,
+                        }
+
                         found_same_tr = True
                         break
                 if not found_same_tr:
                     corres = read_corres_different_dataset(
-                            source_name, target_name, source_dataset, target_dataset
-                        )
-                    corres_between_src_target = {"corres": corres, "same_tr": False, "barycentric": True}
+                        source_name, target_name, source_dataset, target_dataset
+                    )
+                    corres_between_src_target = {
+                        "corres": corres,
+                        "same_tr": False,
+                        "barycentric": True,
+                    }
         elif source_dataset == "tosca":
-                # remove number from string
+            # remove number from string
             cat_source = re.sub(r"\d", "", source_name)
             cat_target = re.sub(r"\d", "", target_name)
             if cat_source == cat_target:
-                corres = read_corres_same_dataset(general_config, source, target, data_dir)
-                corres_between_src_target = {"corres": corres, "same_tr": True, "barycentric": False}
+                corres = read_corres_same_dataset(
+                    general_config, source, target, data_dir
+                )
+                corres_between_src_target = {
+                    "corres": corres,
+                    "same_tr": True,
+                    "barycentric": False,
+                }
             else:
                 corres = read_corres_different_dataset(
-                        source_name, target_name, source_dataset, target_dataset
-                    )
-                corres_between_src_target = {"corres": corres, "same_tr": False, "barycentric": True}
+                    source_name, target_name, source_dataset, target_dataset
+                )
+                corres_between_src_target = {
+                    "corres": corres,
+                    "same_tr": False,
+                    "barycentric": True,
+                }
         else:
             corres = read_corres_same_dataset(general_config, source, target, data_dir)
             corres_between_src_target = {
-                        "corres": corres,
-                        "same_tr": config["same_triangulation"],
-                        "barycentric": False,
-                    }
+                "corres": corres,
+                "same_tr": config["same_triangulation"],
+                "barycentric": False,
+            }
     else:
-            # read
+        # read
         bary_corres = read_corres_different_dataset(
-                source_name, target_name, source_dataset, target_dataset
-            )
-        corres_between_src_target = {"corres": bary_corres, "same_tr": False, "barycentric": True}
+            source_name, target_name, source_dataset, target_dataset
+        )
+        corres_between_src_target = {
+            "corres": bary_corres,
+            "same_tr": False,
+            "barycentric": True,
+        }
     return corres_between_src_target
 
 
@@ -228,13 +276,15 @@ def barycentric_corres_to_p2p(config_general, corres, i, path, data_dir):
     shape_name = path[i]["name"]
     precomputed_shape = f"{shape_name}_F.npy"
     precomputed_shape = precomputed_shape.replace("/", "_")
-    precomputed_folder = f"{os.path.dirname(os.path.realpath(__file__))}/precomputed_shapes"
+    precomputed_folder = (
+        f"{os.path.dirname(os.path.realpath(__file__))}/precomputed_shapes"
+    )
     if isfile(f"{precomputed_folder}/{precomputed_shape}"):
         F = np.load(f"{precomputed_folder}/{precomputed_shape}", allow_pickle=True)
         corres = barycentric_to_p2p(corres, F)
     else:
         conf_file = Path(
-        f"{os.path.dirname(os.path.realpath(__file__))}/../config/{path[i]['org_dataset']}.yaml"
+            f"{os.path.dirname(os.path.realpath(__file__))}/../config/{path[i]['org_dataset']}.yaml"
         )
         with open(conf_file, "r") as f:
             config = yaml.load(f, Loader=yaml.FullLoader)
@@ -244,19 +294,25 @@ def barycentric_corres_to_p2p(config_general, corres, i, path, data_dir):
         shape_filetype = config["file_type"]
         shape_file = f"{data_dir}/{shape_dataset}/{shape_name}.{shape_filetype}"
         try:
-            _ , F = read_file(shape_file)
+            _, F = read_file(shape_file)
             if save:
                 np.save(f"{precomputed_folder}/{precomputed_shape}", F)
             corres = barycentric_to_p2p(corres, F)
         except:
-            saved_filename = f"{os.path.dirname(os.path.realpath(__file__))}/default_vertices/{shape_name}.npy"
+            print(
+                f"Template shape file {shape_file} for barycentric to p2p conversion not found, using default faces."
+            )
+            save_shapename = shape_name.replace("/", "_")
+            saved_filename = f"{os.path.dirname(os.path.realpath(__file__))}/default_faces/{save_shapename}.npy"
             if isfile(saved_filename):
-                v_default = np.load(saved_filename, allow_pickle=True)
-                corres = v_default[corres[:,0].astype(int)]
+                f_default = np.load(saved_filename, allow_pickle=True)
+                corres = barycentric_to_p2p(corres, f_default)
     return corres
 
 
-def combine_corres_paths(config_general: dict, corres_path: List[dict], path: List[dict], data_dir: str):
+def combine_corres_paths(
+    config_general: dict, corres_path: List[dict], path: List[dict], data_dir: str
+):
     start_corres = corres_path[0]["corres"]
     corres = start_corres
     last_barycentric = corres_path[0]["barycentric"]
@@ -273,12 +329,16 @@ def combine_corres_paths(config_general: dict, corres_path: List[dict], path: Li
             last_barycentric = True
         elif last_barycentric and barycentric:
             # load shape to get faces
-            corres = barycentric_corres_to_p2p(config_general, corres, i, path, data_dir)
+            corres = barycentric_corres_to_p2p(
+                config_general, corres, i, path, data_dir
+            )
             old_corres = corres
             corres = new_corres[old_corres, :]
             corres[old_corres == -1] = -1
         elif last_barycentric and not barycentric and not same_tr:
-            corres = barycentric_corres_to_p2p(config_general, corres, i, path, data_dir)
+            corres = barycentric_corres_to_p2p(
+                config_general, corres, i, path, data_dir
+            )
             old_corres = corres
             corres = new_corres[corres.astype(int)]
             corres[old_corres == -1] = -1
@@ -291,13 +351,16 @@ def combine_corres_paths(config_general: dict, corres_path: List[dict], path: Li
             print("Error in combining correspondences")
     return corres
 
+
 def barycentric_to_p2p(corres, faces2):
     # get barycentric coordinates
     bary_coords = corres[:, 1:]
     # get closest face
     closest_faces = corres[:, 0].astype(int)
     p2p = np.zeros_like(closest_faces)
-    p2p = np.where(closest_faces != -1, faces2[closest_faces, np.argmax(bary_coords, axis=1)], -1)
+    p2p = np.where(
+        closest_faces != -1, faces2[closest_faces, np.argmax(bary_coords, axis=1)], -1
+    )
 
     return p2p
 
