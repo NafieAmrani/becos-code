@@ -85,7 +85,7 @@ Please make sure that if using BeCoS you also attribute the underlying datasets.
         month_numeric = {7}
       }
 ```
-### DT4D
+#### DT4D
 ```
 @inproceedings{li20214dcomplete,
   title={4dcomplete: Non-rigid motion estimation beyond the observable surface},
@@ -95,7 +95,7 @@ Please make sure that if using BeCoS you also attribute the underlying datasets.
   year={2021}
 } 
 ```
-### TOSCA
+#### TOSCA
 ```
 @book{bronstein2008numerical,
 author = {Bronstein, Alexander and Bronstein, Michael and Kimmel, Ron},
@@ -106,7 +106,7 @@ publisher = {Springer Publishing Company, Incorporated},
 edition = {1},
 }
 ```
-### KIDS
+#### KIDS
 ```
 @inproceedings{rodola2014dense,
   title={Dense non-rigid shape correspondence using random forests},
@@ -116,7 +116,7 @@ edition = {1},
   year={2014}
 }
 ```
-### SHREC20
+#### SHREC20
 ```
 @article{dyke2020shrec,
   title={SHREC’20: Shape correspondence with non-isometric deformations},
