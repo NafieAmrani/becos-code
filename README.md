@@ -44,7 +44,7 @@ All runtimes reported below are on a linux machine with: AMD Ryzen 9 5950X 16-Co
 ```
 @article{ehm2025becos,
   title = {Beyond Complete Shapes: A quantitative Evaluation of 3D Shape Matching Algorithms},
-  author = {Ehm, Viktoria and El Amrani, Nafie and Xie, Yizheng and Bastian, Lennart and Gao, Maolin and Wang, Weikang and Sang, Lu and Cao, Dongliang and Weißberg, Tobias and L{\"a}hner, Zorah and Cremers, Daniel and others},
+  author = {Ehm, Viktoria and El Amrani, Nafie and Xie, Yizheng and Bastian, Lennart and Gao, Maolin and Wang, Weikang and Sang, Lu and Cao, Dongliang and Weißberg, Tobias and L{\"a}hner, Zorah and Cremers, Daniel and Bernard, Florian},
   month = jun,
   year = {2025}
 }
