@@ -17,7 +17,3 @@ The SMAL dataset can be downloaded [here](https://smal.is.tue.mpg.de/index.html)
 
 ## DT4D Dataset
 Fill out the form [here](https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform). You will get the link for the dataset via Email afterwards. Download the dataset and place it in the `data/` folder. Use our `preprocess_dt4d.py` to generate the meshes used in the BeCoS benchmark.
-
-
-### SCAPE Dataset
-The SCAPE dataset has been made available for research purposes [on this webpage](https://graphics.soe.ucsc.edu/private/data/SCAPE). Please email Prof. James Davis (**davis at soe.ucsc.edu**) to get the password. Place the data under `SCAPE/Meshes`.
